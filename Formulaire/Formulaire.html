@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire Vente de données mais ile ne vont pas le savoir </title>
-    <style>body {
+    <style>
+    body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     padding: 20px;
@@ -17,23 +18,23 @@
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}</style>
+}
+    </style>
 </head>
 <body>
     <h1> Formulaire d'informations( trés court)</h1>
+    <div class="container">
     <form method="post" action="register.php">
         <!-- Les coordonnées sont juste aprés  -->
          <h2> Veuillez complétez tous les champs suivants :</h2>
-         <label for="nom"></label><br>
-         <label for="prénom"></label><br>
-         <label for="téléphone"></label><br>
-         <label for="email"></label><br>
-            <input type="text" name="nom" id="nom" placeholder="Nom"></p>
-            <input type="text" name="prénom" id="prénom" placeholder="Prénom"></p>
-            <input type="tel" name="téléphone" id="téléphone" placeholder="Téléphone"></p>
-            <input type="email" name="email" id="email" placeholder="Email"></p>
+         
+            <input type="text" name="nom" id="nom" placeholder="Nom"></p><label for="nom"></label>
+            <input type="text" name="prénom" id="prénom" placeholder="Prénom"></p><label for="prénom"></label>
+            <input type="tel" name="téléphone" id="téléphone" placeholder="Téléphone"></p><label for="téléphone"></label>
+            <input type="email" name="email" id="email" placeholder="Email"></p><label for="email"></label><br>
          <p>Veuillez renseigner votre date de naissance :</p>
-         <label for="date"></label><br>
+
+         <label for="date"></label>
             <input type="date" name="date" id="date" placeholder="Date de naissance"></p>
         <!-- Questions à choix unique -->
          <p>Votre genre :</p>
@@ -64,7 +65,7 @@
             <label for="je ne sais pas">Je ne sais pas</label><br>
             <!-- Questions déroulantes   -->
          <p>Si oui, quelle est la couleur de vos cheveux ?</p>
-         <label for="couleur_cheveux"></label><br> 
+         <label for="couleur_cheveux"></label>
             <select name="couleur_cheveux" id="couleur_cheveux">
                 <option value="blond">Blond</option>
                 <option value="brun">Brun</option>
@@ -124,8 +125,8 @@
             <label for="oui">Oui</label><br>
             <p>Merci de vos réponses qui resteront strictement confidentielles.</p>
             <!-- Fin du questionnaire -->
-            <input type="submit" value="Envoyer">
-            <div class="container"></div>
+            <input type="submit" value="Envoyer">            
     </form>
+</div>
 </body>
 </html>
