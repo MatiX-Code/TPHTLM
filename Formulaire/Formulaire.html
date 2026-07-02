@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Vente de données</title>
+</head>
+<body>
+    <h1> Formulaire d'informations( trés court)</h1>
+    <form method="post" action="register.php">
+        <!-- Les coordonnées sont juste aprés  -->
+         <h2> Veuillez complétez tous les champs suivants :</h2>
+         <label for="nom">Nom :</label><br>
+         <label for="prénom">Prénom :</label><br>
+         <label for="téléphone">Téléphone :</label><br>
+         <label for="email">Email :</label><br>
+            <input type="text" name="nom" id="nom" placeholder="Nom"></p>
+            <input type="text" name="prénom" id="prénom" placeholder="Prénom"></p>
+            <input type="tel" name="téléphone" id="téléphone" placeholder="Téléphone"></p>
+            <input type="email" name="email" id="email" placeholder="Email"></p>
+         <p>Veuillez renseigner votre date de naissance :</p>
+         <label for="date">Date de naissance :</label><br>
+            <input type="date" name="date" id="date" placeholder="Date de naissance"></p>
+        <!-- Questions à choix unique -->
+         <p>Votre genre :</p>
+            <input type="radio" name="genre" value="homme" id="homme">
+            <label for="homme">Homme</label><br>
+            <input type="radio" name="genre" value="femme" id="femme">
+            <label for="femme">Femme</label><br>
+            <input type="radio" name="genre" value="radiateur ascendant chèvre" id="radiateur ascendant chèvre"
+            <label for="radiateur ascendant chèvre">Radiateur ascendant chèvre</label><br>
+            <input type="radio" name="genre" value="autre" id="autre">
+            <label for="autre">Autre</label><br>
+            
+         <p>Votre situation familiale</p>
+            <input type="radio" name="situation" value="célibataire" id="célibataire">
+            <label for="célibataire">Célibataire</label><br>
+            <input type="radio" name="situation" value="marié(e)" id="marié(e)">
+            <label for="marié(e)">Marié(e)</label><br>
+            <input type="radio" name="situation" value="divorcé(e)" id="divorcé(e)">
+            <label for="divorcé(e)">Divorcé(e)</label><br>
+            <input type="radio" name="situation" value="veuf(ve)" id="veuf(ve)">
+            <label for="veuf(ve)">Veuf(ve)</label><br>
+         <p>Êtes-vous chauve ?</p>
+            <input type="radio" name="chauve" value="oui" id="oui">
+            <label for="oui">Oui</label><br>
+            <input type="radio" name="chauve" value="non" id="non">
+            <label for="non">Non</label><br>
+            <input type="radio" name="chauve" value="je ne sais pas" id="je ne sais pas">
+            <label for="je ne sais pas">Je ne sais pas</label><br>
+            <!-- Questions déroulantes   -->
+         <p>Si oui, quelle est la couleur de vos cheveux ?</p>
+         <label for="couleur_cheveux">Couleur des cheveux :</label><br> 
+            <select name="couleur_cheveux" id="couleur_cheveux">
+                <option value="blond">Blond</option>
+                <option value="brun">Brun</option>
+                <option value="roux">Roux</option>
+                <option value="noir">Noir</option>
+                <option value="gris">Gris</option>
+                <option value="autre">Autre</option>
+            </select><br>
+            <!-- Quesions d'axe améliorations du formulaire -->
+         <p>Trouvez-vous que les questions sont pertinentes ? (Si vous trouvez que non merci de nous indiquer pourquoi)</p>
+            <input type="radio" name="pertinance" value="oui" id="oui">
+            <label for="oui">Oui</label><br>
+            <input type="radio" name="pertinance" value="oui" id="oui">
+            <label for="oui">Oui</label><br>
+            <!-- Questions à choix multiples -->
+         <p>Possédez vous des objets suivants chez vous ? (plusieurs choix possibles)</p>
+            <input type="checkbox" name="objets1" value="un aimant de la corèze" id="aimant_corèze">
+            <label for="aimant_corèze">Un aimant de la Corèze</label><br>
+            <input type="checkbox" name="objets2" value="un calendrier de la maison de retraite de Saint Nazère" id="calendrier_maison_retraite">
+            <label for="calendrier_maison_retraite">Un calendrier de la maison de retraite de Saint Nazère</label><br>
+            <input type="checkbox" name="objets3" value="un poster de la chanteuse Lorie" id="poster_lorie">
+            <label for="poster_lorie">Un poster de la chanteuse Lorie</label><br>
+            <!-- Zone de texte -->
+         <p>  Si vous avez un de ces objets, pouvez-vous nous donner les raisons de la possession de ces objets ?</p>
+            <label for="raison">Raison des objets possédés :</label><br>
+            <textarea name="raison" id="raison" rows="4" cols="50" placeholder="Expliquez brièvement votre raison"></textarea></p> 
+         <p> Par ailleurs si vous ne possédez aucun de ces objets, merci de nous indiquer pourquoi.</p>
+            <label for="raison_non">Raison de la non-possession :</label><br>
+            <textarea name="raison_non" id="raison_non" rows="4" cols="50" placeholder="Expliquez brièvement votre raison"></textarea></p>
+        <!-- Toujours axe améliorations -->
+            <p>  Avez-vous des suggestions pour améliorer ce formulaire ?</p>
+            <input type="radio" name="suggestions" value="non" id="non">
+            <label for="non">Non</label><br>
+            <input type="radio" name="suggestions" value="non" id="non">
+            <label for="non">Non</label><br>
+            <!-- Question de fréquence -->
+         <p> Merci de nous indiquer le nombre de fois que vous avez manger dans un Flunch</p>
+            <select name="nombre de fois manger flunch" id="nombre de fois manger flunch">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10+">10+</option>
+            </select>
+            <label for="nombre de fois manger flunch">Nombre de fois que vous avez manger dans un Flunch</label><br>
+           <!-- Ressenti visiteur -->
+            <p>Est ce que vous passez un agréable moment ?</p>
+            <input type="radio" name="moment agréable" value="oui" id="oui">
+            <label for="oui">Oui</label><br>
+            <input type="radio" name="moment agréable" value="oui" id="oui">
+            <label for="oui">Oui</label><br>
+            <p>Merci de vos réponses qui resteront strictement confidentielles.</p>
+            <!-- Fin du questionnaire -->
+            <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>

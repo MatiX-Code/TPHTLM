@@ -1,0 +1,1 @@
+Vous aller faire une page web qui sera dédiée à un formulaire d'inscription dans lequel on va demander beaucoup d'informations à l'utilisateur (afin de voir le maximum de type d'inputs)
