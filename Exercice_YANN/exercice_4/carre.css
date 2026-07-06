@@ -10,6 +10,5 @@ body{
     margin : 300px 300px 300px 300px;
 }
 .carre{
-    box-shadow: 10px 10px 5px black;
     box-shadow: 10px 10px 5px black, -10px -10px 5px white;
 }
