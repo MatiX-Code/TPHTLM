@@ -1,0 +1,15 @@
+body{
+    background-color : purple;
+}
+.carre{
+    width : 800px;
+    height : 400px;
+    background-color : blue;
+}
+.carre{
+    margin : 300px 300px 300px 300px;
+}
+.carre{
+    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px black, -10px -10px 5px white;
+}
