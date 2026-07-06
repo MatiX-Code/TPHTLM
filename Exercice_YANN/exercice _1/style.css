@@ -1,0 +1,18 @@
+h2 {
+    color: blue;
+}
+h2:hover {
+    color: green;
+}
+p:active {
+    background-color: grey;
+}
+a:link {
+    color: orange;
+}
+a:visited {
+    color: gray;
+}
+img:hover {
+    display: none;
+}
