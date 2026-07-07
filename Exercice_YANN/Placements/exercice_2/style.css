@@ -1,0 +1,19 @@
+form{
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+    background-color: gainsboro;
+}
+h1{
+    text-align: center;
+}
+
+#Info{
+    padding-left: 30px;
+    display: flex;
+
+    
+}
+#Bouttons{
+    text-align: center;
+}
