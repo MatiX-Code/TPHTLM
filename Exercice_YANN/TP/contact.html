@@ -7,6 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Haut de page -->
+<header>
+    <div id="banniere"></div>
+    <h1>Mon Site Web mais moche de chez moche</h1>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Accueil</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Gallerie</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+</header>
+<!-- Section formulaire -->
+ <form method="post" action="#.php">
+    <fieldset>
+        <legend>Merci de remplir ce formulaire pour vendre vos données</legend>
+        <label for="Nom">Nom :</label>
+        <input type="text" name="Nom" id="Nom" placeholder="Votre nom" maxlength="20" minlength="2" required></br>
+        <label for="Mail"> Votre Email :</label>
+        <input type="email" name="Email" id="Mail" placeholder="Votre email" required></br>
+        <label for="commentaire">Merci de laissez un commentaire :</label></br>
+        <textarea name="commentaire" id="commentaire" rows="10" cols="70"></textarea></br>
+        <label for="Envoi">Envoie d'une copie :</label>
+        <input type="checkbox" id="Envoi"></br>
+        <input type="submit">
+        <input type="reset">
+    </fieldset>
+ </form>
+    <!-- Bas de page -->
+<footer>
+        <ul>
+            <li><a href="#">Lien fictif 1</a></li>
+            <li><a href="#">Lien fictif 2</a></li>
+            <li><a href="#">Lien fictif 3</a></li>
+        </ul>
+</footer> 
 </body>
 </html>

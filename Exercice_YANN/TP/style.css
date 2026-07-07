@@ -1,5 +1,41 @@
+header{   
+    text-align: center;
+}
+
 div{
     height: 200px;
     width: 800px;
     background-color :aquamarine;
+    display: block;
+    margin: auto;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    color: #EF233C;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    color: #2b2d42;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+article{
+    border:solid 1px black;
+   
+
+}
+
+footer{
+    text-align: right;
 }
