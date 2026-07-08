@@ -14,10 +14,12 @@ h1 {
     font-size: var(--taille-titre);
     text-shadow: var(--ombre);
     margin: var(--marge);
+    cursor: crosshair;
 }
 
 p{
     background-color: var(--fond-texte);
+    cursor: wait;
 }
 
 h2{
@@ -29,4 +31,7 @@ a{
 }
 li{
     font-style: var(--italique);
+}
+img{
+    cursor:nw-resize ;
 }
