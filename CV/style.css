@@ -1,0 +1,32 @@
+:root{
+    --couleur-titre: red;
+    --taille-titre: 50px;
+    --fond-texte: orange;
+    --couleur-sous-titre: purple;
+    --fond-lien: pink;
+    --italique: italic;
+    --ombre: -10px -50px 1px green;
+    --marge: 60px 60px;
+}
+
+h1 {
+    color: var(--couleur-titre);
+    font-size: var(--taille-titre);
+    text-shadow: var(--ombre);
+    margin: var(--marge);
+}
+
+p{
+    background-color: var(--fond-texte);
+}
+
+h2{
+    color: var(--couleur-sous-titre);
+
+}
+a{
+    background-color: var(--fond-lien);
+}
+li{
+    font-style: var(--italique);
+}
