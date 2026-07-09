@@ -7,19 +7,20 @@ article{
     margin-bottom: 20px;
 }
 #header{
-    display:flex;
+    display: flex;
     justify-content: center;
     background-color: blue;
     margin-bottom: 20px;
     
-    
 }
 #footer{
-    display:flex;
+    display: flex;
     justify-content: center;
     background-color: blue;
     
-
+}
+h2{
+    text-align: center;
 }
 #articles{
     display: grid;

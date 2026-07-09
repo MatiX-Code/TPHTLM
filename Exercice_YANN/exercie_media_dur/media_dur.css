@@ -1,0 +1,54 @@
+body{
+    background-color: blueviolet;
+}
+header{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+footer{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+button{
+    height: 50px;
+    margin: 5px;
+}
+main{
+    display: grid;
+    grid-template-columns: 8;
+
+}
+#menu{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    margin-top: 5px;
+    grid-column: 1;
+}
+article{
+    background-color: aquamarine;
+    margin-top: 5px;
+    margin-left: 5px;
+    grid-column: 2 / span 3;
+    display: grid;
+    grid-template-columns: 3;
+}
+#galerie{
+    background-color: aquamarine;
+    margin-top: 5px;
+    margin-left: 5px;
+    grid-column: 7;
+    display: flex;
+    flex-direction: column;
+}
+#article1{
+    display: flex;
+}
+
