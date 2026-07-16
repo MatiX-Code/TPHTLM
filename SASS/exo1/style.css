@@ -1,0 +1,9 @@
+#nestingTest {
+  background-color: aquamarine;
+}
+#nestingTest p {
+  color: burlywood;
+}
+#nestingTest :hover {
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */
