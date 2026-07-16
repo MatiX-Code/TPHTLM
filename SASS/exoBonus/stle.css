@@ -1,5 +1,5 @@
 p {
-  text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=stle.css.map */
