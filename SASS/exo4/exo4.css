@@ -6,6 +6,7 @@ article {
 .card {
   grid-column: 2/4;
   border-radius: 20px;
+  box-shadow: 10px 5px 0px yellow;
   background-color: rgba(10, 10, 10, 0.774);
   height: auto;
   width: auto;
