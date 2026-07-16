@@ -1,0 +1,35 @@
+/* variables */
+$primary-color:rgb(230, 242, 65);
+$secondary-color:rgb(245, 73, 39);
+$third-color:rgb(14,58,75);
+
+header{
+    background-color: $primary-color;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: $primary-color;
+}
+button{
+    background-color: $secondary-color;
+    margin: auto;
+    border: solid 5px $primary-color;
+    
+}
+li{
+    color: $third-color;
+    
+}
+h2{
+    color: $third-color;
+    text-align: center;
+}
+main{
+    background-color: $third-color;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
