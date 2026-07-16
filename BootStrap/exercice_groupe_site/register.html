@@ -10,54 +10,56 @@
 </head>
 
 <body>
-<header class="pb-5 mb-5 d-flex justify-content-around shadow py-5 mb-5 bg-body rounded ">
- 
-     <a class="navbar-brand fw-bold fs-3 text-primary" href="tp-skillhub-index.html">
-                <i class="bi bi-code-square me-2"></i>SkillHub
-     </a>
-    <nav class="nav nav-pills">
-        <a class=" nav-link link-dark fw-bold" href="#">Cours</a>
-        <a class="nav-link link-dark" href="#">Tarifs</a>
-        <a class=" nav-link link-dark" href="#">Contact</a>
-    </nav>
-    <button type="button" class="btn btn-outline-primary">Connexion</button>
-</header>
+    <header class="pb-5 mb-5 d-flex justify-content-around shadow py-5 mb-5 bg-body rounded ">
+
+        <a class="navbar-brand fw-bold fs-3 text-primary" href="tp-skillhub-index.html">
+            <i class="bi bi-code-square me-2"></i>SkillHub
+        </a>
+        <nav class="nav nav-pills">
+            <a class=" nav-link link-dark fw-bold" href="#">Cours</a>
+            <a class="nav-link link-dark" href="#">Tarifs</a>
+            <a class=" nav-link link-dark" href="#">Contact</a>
+        </nav>
+        <a href="login.html"><button type="button" class="btn btn-outline-primary">Connexion</button></a>
+    </header>
 
 
-    <main class="col-3 m-auto shadow py-5 mb-5 bg-body rounded" >
-            <h1 class="text-center display-6 fw-bold">Créer un compte</h1>
-            <h6 class="text-center text-muted m">Rejoignez la communauté des apprenants</h6>
+    <main class="col-3 m-auto shadow py-5 mb-5 bg-body rounded">
+        <h1 class="text-center display-6 fw-bold">Créer un compte</h1>
+        <h6 class="text-center text-muted m">Rejoignez la communauté des apprenants</h6>
         <form class="needs-validation justify-content-center align-items-center" novalidate>
             <div class="m-4">
-                    <label for="name" class="form-label">Nom complet</label>
-                    <input type="text"class="form-control" id="name" placeholder="Jean Dupont">
-            </div>         
-            <div class="m-4">
-                    <label for="email" class="form-label">Adresse Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="nom@exemple.com">
+                <label for="name" class="form-label">Nom complet</label>
+                <input type="text" class="form-control" id="name" placeholder="Jean Dupont">
             </div>
             <div class="m-4">
-                    <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-            <div class="input-group">
+                <label for="email" class="form-label">Adresse Email</label>
+                <input type="email" class="form-control" id="email" placeholder="nom@exemple.com">
+            </div>
+            <div class="m-4">
+                <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+                <div class="input-group">
                     <input type="password" class="form-control" id="passwordInput" placeholder="Mot de passe">
                     <span class="input-group-text" id="togglePassword" style="cursor: pointer;">
-                    <i class="bi bi-eye"></i>
+                        <i class="bi bi-eye"></i>
                     </span>
                 </div>
             </div>
             <div class="m-4">
-                    <label for="exampleInputPassword1" class="form-label">Confirmer le mot de passe</label>
-            <div class="input-group">
-                    <input type="password" class="form-control is-invalid" id="passwordInput" placeholder="Mot de passe">           
-                <div class="invalid-feedback">
-                    Les mots de passe ne correspondent pas.
-            </div>
-            </div>
+                <label for="exampleInputPassword1" class="form-label">Confirmer le mot de passe</label>
+                <div class="input-group">
+                    <input type="password" class="form-control is-invalid" id="passwordInput"
+                        placeholder="Mot de passe">
+                    <div class="invalid-feedback">
+                        Les mots de passe ne correspondent pas.
+                    </div>
+                </div>
             </div>
             <div class="text-center">
-                    <button type="submit" class="btn btn-primary px-5 mb-3">S'inscrire</button>
+                <a href="login.html"><button type="submit" class="btn btn-primary px-5 mb-3">S'inscrire</button></a>
             </div>
-            <h6 class="text-center text-muted">Déjà un compte ? <a href="#" class="link-primary text-decoration-none ">Se connecter</a></h6>
+            <h6 class="text-center text-muted">Déjà un compte ? <a href="#"
+                    class="link-primary text-decoration-none ">Se connecter</a></h6>
         </form>
     </main>
 

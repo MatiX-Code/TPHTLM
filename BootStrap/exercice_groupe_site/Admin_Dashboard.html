@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+<!-------- Header avec Menu Burger ------------------------------->
+        <header>
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid d-flex justify-content-start">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand d-flex" href="#"><i class="bi bi-speedometer2"
+                            style="color: rgb(13, 110, 253); padding: 0px 6px;"></i>
+                        <h3 class="fw-bold text-primary">SkillHub</h3>
+                        <h3 class="fw-bold text-white">Admin</h3>
+                    </a>
+                    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <i class="bi bi-speedometer2" style="color: rgb(13, 110, 253); padding-right: 6px; padding-bottom: 6px"></i>
+                            <h3 class="fw-bold text-primary">SkillHub</h3>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <hr class="border border-secondary border-2">
+                        <div class="offcanvas-body d-flex flex-column">
+                            <ul class="navbar-nav flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#"><i class="bi bi-speedometer2"
+                                            style="color: white; padding-right: 4px;"></i>Dashboard</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#"><i class="bi bi-play-circle"
+                                            style="color: #F8F9FA; padding-right: 4px;"></i>Mes Cours</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#"><i class="bi bi-people"
+                                            style="color: #F8F9FA; padding-right: 4px;"></i>Etudiants</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#"><i class="bi bi-gear"
+                                            style="color: #F8F9FA; padding-right: 4px;"></i>Paramètres</a>
+                            </ul>
+                            <div class="mt-auto">
+                                <hr class="border border-secondary border-2 mx-1">
+                                <button type="button" class="btn btn-outline-danger w-100"><span class="text-danger"><i class="bi bi-box-arrow-right"  style="padding-right: 4px;"></i></span>Déconnexion</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <nav class="navbar navbar-expand-xxl bg-dark">
+                <div class="container-fluid justify-content-start gap-2">
+                    <button class="navbar-toggler btn-secondary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand d-flex" href="#"><i class="bi bi-speedometer2"  style="color: rgb(13, 110, 253); padding-right: 4px;"></i><h3 class="fw-bold text-primary">SkillHub</h3><h3 class="fw-bold text-white">Admin</h3></a>
+<!-------- Conteneur du Menu ------------------------------------->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#"><i class="bi bi-speedometer2"  style="color: white; padding-right: 4px;"></i>Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#"><i class="bi bi-play-circle"  style="color: #F8F9FA; padding-right: 4px;"></i>Mes Cours</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#"><i class="bi bi-people"  style="color: #F8F9FA; padding-right: 4px;"></i>Etudiants</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#"><i class="bi bi-gear"  style="color: #F8F9FA; padding-right: 4px;"></i>Paramètres</a>
+                            </li>
+                        </ul>
+                        <a href="index.html"><button type="button" href="index.html" class="btn btn-outline-danger">Déconnexion</button></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container-sm">
+
+                <!-- En-tête de section -->
+                <div class="text-center my-3">
+                    <h2 class="display-5 fw-bold">Tableau de bord</h2>
+                    <p class="text-muted">Bienvenu-e, Admin</p>
+                </div>
+
+                <!-- Grille Responsive -->
+                <!-- g-4 ajoute un gutter (espacement) entre les colonnes et lignes -->
+                <div class="row g-4 mx-3">
+
+                    <!-- Etudiants -->
+                    <div class="col-12 col-md-6 col-lg-3 border-0 shadow-sm rounded">
+                        <article class="card flex-row border-0 team-card text-start">
+                            <div class="card-body">
+                                <p class="card-text text-primary text-uppercase">Total Etudiants</p>
+                                <h3 class="card-title h5 fw-bold">1,254</h3>
+                            </div>
+                            <div class="avatar-container align-self-center">
+                                <i class="bi bi-people"  style="color: rgb(13, 110, 253); font-size: 2rem;"></i>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Revenus -->
+                    <div class="col-12 col-md-6 col-lg-3 border-0 shadow-sm rounded">
+                        <article class="card flex-row border-0 team-card text-start">
+                            <div class="card-body">
+                                <p class="card-text text-primary text-uppercase">Revenus</p>
+                                <h3 class="card-title h5 fw-bold">12,450</h3>
+                            </div>
+                            <div class="avatar-container align-self-center">
+                                <span class="text-success"><i class="bi bi-currency-euro"  style="font-size: 2rem;"></i></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Cours -->
+                    <div class="col-12 col-md-6 col-lg-3 border-0 shadow-sm rounded">
+                        <article class="card flex-row border-0 team-card text-start">
+                            <div class="card-body">
+                                <p class="card-text text-primary text-uppercase">Cours actifs</p>
+                                <h3 class="card-title h5 fw-bold">42</h3>
+                            </div>
+                            <div class="avatar-container align-self-center">
+                                <span class="text-warning"><i class="bi bi-book"  style="font-size: 2rem;"></i></span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Taux -->
+                    <div class="col-12 col-md-6 col-lg-3 border-0 shadow-sm rounded">
+                        <article class="card flex-row border-0 team-card text-start">
+                            <div class="card-body">
+                                <p class="card-text text-primary text-uppercase">Taux complétion</p>
+                                <h3 class="card-title h5 fw-bold">88%</h3>
+                            </div>
+                            <div class="avatar-container align-self-center">
+                                <span class="text-info"><i class="bi bi-graph-up-arrow"  style="font-size: 2rem;"></i></span>
+                            </div>
+                        </article>
+                    </div>
+
+                </div> <!-- Fin de la Row -->
+
+                <!-- Tableau étudiants -->
+                <div class="row mx-3">
+                    <div class="card g-4 my-3 p-2 border-0 shadow-sm">
+                        <h3 class="text-start">Dernières inscriptions</h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Etudiant</th>
+                                    <th scope="col">Cours</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Statut</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Jean Dupont</td>
+                                    <td>Développement Web Fullstack</td>
+                                    <td>12 Oct 2023</td>
+                                    <td><span class="bg-success text-white fw-bold rounded-pill px-3">Actif</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Alice Martin</td>
+                                    <td>Design UX/UI</td>
+                                    <td>10 Oct 2023</td>
+                                    <td><span class="bg-warning text-secondary fw-bold rounded-pill px-3">En attente</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Robert King</td>
+                                    <td>Data Science</td>
+                                    <td>08 Oct 2023</td>
+                                    <td><span class="bg-success text-white fw-bold rounded-pill px-3">Actif</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="text-center"><a href="#" class="link-underline-light">Voir tous les étudiants</a></p>
+                    </div>
+                </div>
+        </main> <!-- Fin du Container -->
+    </div>
+</body>
+</html>
