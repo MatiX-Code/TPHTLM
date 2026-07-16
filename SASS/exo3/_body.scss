@@ -1,0 +1,7 @@
+@use 'variables';
+body{
+    background-color: variables.$secondary-color;
+}
+button{
+    color: variables.$third-color;
+}

@@ -1,0 +1,7 @@
+@use 'variables';
+header{
+    background-color: variables.$four-color;
+}
+p{
+    color: variables.$primary-color;
+}
