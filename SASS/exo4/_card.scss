@@ -1,0 +1,35 @@
+@use 'variable';
+
+article{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    
+}
+
+.card{
+    grid-column: 2 / 4;
+    border-radius: 20px;
+    background-color: variable.$one-color;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: variable.$two-color;
+    font-size: variable.$taille;
+    text-align: center;
+}
+
+p{
+    color: variable.$three-color;
+    font-family: variable.$police;
+    text-align: center;
+}
+h3{
+    color: variable.$four-color;
+    text-align: end;
+}

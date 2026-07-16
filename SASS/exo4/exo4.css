@@ -1,0 +1,33 @@
+article {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  grid-column: 2/4;
+  border-radius: 20px;
+  background-color: rgba(10, 10, 10, 0.774);
+  height: auto;
+  width: auto;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: rgb(238, 204, 13);
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  color: rgb(230, 113, 19);
+  font-family: arial;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(4, 156, 80);
+  text-align: end;
+}/*# sourceMappingURL=exo4.css.map */
